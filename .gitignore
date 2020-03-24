@@ -1,0 +1,5 @@
+*.log
+venv-py
+venv-py3.7
+*.pyc
+.idea
