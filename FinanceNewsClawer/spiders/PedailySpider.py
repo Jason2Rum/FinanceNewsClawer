@@ -42,7 +42,6 @@ class PedailySpider(scrapy.Spider):
     for url in url_list:
       if hash(url) in last_list:
         pass
-        continue
       yield scrapy.Request(url = url, callback=self.parse)
 
     # 保存记录
